@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -99,13 +100,13 @@ body {
 
 .personajes-title {
     color: #fcfcfc;
-    font-family: "Russo One", sans-serif;
+    font-family: "Press Start 2P", sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
     letter-spacing: 1.5px;
-    opacity: .95;
+    opacity: .8;
 }
 
 .personajes-container {
@@ -114,7 +115,6 @@ body {
     margin: auto;
     margin-top: 40px;
     display: grid;
-    column-gap: 10px;
     row-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     align-items: center;
@@ -424,7 +424,7 @@ body {
         'nav main'
         'banner banner'
         'footer footer';
-        grid-template-columns: 350px 1fr;
+        grid-template-columns: 300px 1fr;
     }
 
     .navbar::before {
@@ -433,9 +433,10 @@ body {
 
     .navbar {
         flex-direction: column;
-        justify-content: center;
-        height: 100vh;
-        gap: 30px;
+        justify-content: center;;
+        height: 80vh;
+        gap: 40px;
+        margin-top: 15vh;
     }
 
     .menu {
@@ -460,7 +461,7 @@ body {
     }
 
     .personajes-title {
-        font-size: 3rem;
+        font-size: 2.3rem;
     }
 
     .banner {
