@@ -331,9 +331,13 @@ body {
     text-align: center;
     padding-top: 5px;
 }
+@media (min-width: 576px) and (max-width: 768px) {
+    
+}
+
 
 /* VERSIÓN TABLET*/
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     .navbar::before {
         border-radius: 10px;
     }
@@ -399,6 +403,12 @@ body {
     
     .shake:hover {
         animation: shake 0.4s ease-in-out;    
+    }
+
+    .personajes-title {
+        margin-top: 30px;
+        padding-bottom: 20px;
+        font-size: 2.5rem
     }
 }
 
