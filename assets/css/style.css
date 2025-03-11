@@ -237,7 +237,7 @@ body {
     flex-direction: column;
     color: #fff;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 .info {
@@ -331,12 +331,8 @@ body {
     text-align: center;
     padding-top: 5px;
 }
-@media (min-width: 576px) and (max-width: 768px) {
-    
-}
 
-
-/* VERSIÓN TABLET*/
+/* TABLET VERSION */
 @media (min-width: 768px) {
     .navbar::before {
         border-radius: 10px;
@@ -409,6 +405,81 @@ body {
         margin-top: 30px;
         padding-bottom: 20px;
         font-size: 2.5rem
+    }
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    body {
+        grid-template-areas: 
+        'nav main'
+        'nav main'
+        'banner banner'
+        'footer footer';
+        grid-template-columns: 350px 1fr;
+    }
+
+    .navbar::before {
+        border-radius: 50px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        gap: 30px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu li {
+        rotate: -4deg;
+    }
+
+    .menu li a {
+        font-size: 2.8rem;
+    }
+
+    .logos :first-child {
+        width: 5rem;
+    }
+    
+    .logos :last-child {
+        width: 7rem;
+    }
+
+    .personajes-title {
+        font-size: 3rem;
+    }
+
+    .banner {
+        padding-top: 30px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .info {
+         width: 50%;
+    }
+
+    .info h2 {
+        font-size: 2.2rem;
+    }
+
+    .info p {
+        font-size: .9rem;
+    }
+
+    .info a {
+        font-size: .9rem;
+        padding: 15px 20px;
+    }
+
+    .banner img {
+        width: 20rem;
     }
 }
 
