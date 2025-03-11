@@ -268,7 +268,14 @@ body {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+    transition: all .3s ease-in-out;
     font-size: .7rem;
+}
+
+.info a:hover {
+    background-color: #fcfcfc;
+    color: #333;
+    font-weight: 600;
 }
 
 .banner img {
