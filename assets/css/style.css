@@ -142,9 +142,11 @@ body {
     justify-self: center;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 25px 10px rgba(0, 0, 0, 0.2), 0 50px 20px rgba(0, 0, 0, 0.19);
 }
 
 .personaje img {
+    border: 2px solid #a39b9b;
     border-radius: 10px;
     width: 15rem;
     height: 350px;
@@ -167,9 +169,7 @@ body {
 .personaje-nombres {
     width: 100%;
     position: relative; 
-    
     text-align: center;
-    /* border: 2px solid yellow; */
 }
 
 .dc-name,
@@ -248,7 +248,7 @@ body {
 .info h2 {
     text-transform: uppercase;
     font-family: "Audiowide";
-    font-size: 1.4rem;
+    font-size: 1.4rem; 
 }
 
 .info p {
