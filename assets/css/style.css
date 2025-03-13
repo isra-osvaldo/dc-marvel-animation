@@ -14,16 +14,16 @@ body {
     grid-template-areas: 
     "nav"
     "main"
+    "videos"
     "banner"
     "footer";
     min-height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 1fr auto auto;
+    grid-template-rows: 100px 1fr auto auto auto;
     background: url("/assets/images/backgrounds/smoke-effect.jpg") no-repeat center/cover;
     font-family: "Montserrat", system-ui;
     animation: fadeIn 1s ease-in-out;
 }
-
 
 /* MENÚ DE NAVEGACIÓN */
 .navbar::before {
@@ -226,6 +226,30 @@ body {
     opacity: 1;
 }
 
+/* VIDEOS */
+.videos {
+    /* border: 2px solid yellow; */
+    grid-area: videos;
+    display: flex;
+    background-color: #000000;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px 40px;
+}
+
+iframe {
+    /* border: 2px solid red; */
+    width: 500px;
+    height: 500px;
+}
+
+.video {
+    width: 500px; 
+    height: 300px; 
+    overflow: hidden; 
+    position: relative;
+}
 
 /* BANNER */
 
@@ -422,6 +446,7 @@ body {
         grid-template-areas: 
         'nav main'
         'nav main'
+        'videos videos'
         'banner banner'
         'footer footer';
         grid-template-columns: 300px 1fr;
