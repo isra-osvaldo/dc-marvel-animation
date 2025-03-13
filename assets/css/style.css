@@ -464,7 +464,7 @@ iframe {
     .navbar {
         flex-direction: column;
         justify-content: center;;
-        height: 80vh;
+        height: 650px;
         gap: 40px;
         margin-top: 15vh;
     }
