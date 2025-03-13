@@ -118,6 +118,7 @@ body {
     row-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .item-personaje {
@@ -488,6 +489,10 @@ iframe {
     
     .logos :last-child {
         width: 7rem;
+    }
+
+    .personajes-container {
+        padding-bottom: 40px;
     }
 
     .personajes-title {
